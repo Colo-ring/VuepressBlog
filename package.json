@@ -1,0 +1,40 @@
+{
+  "name": "secondBlog",
+  "version": "2.0.0",
+  "description": "nope",
+  "main": "index.js",
+  "author": "Coloring",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "add": "^2.0.6",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-cursor-effects": "^1.0.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.2.3",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "scp": "bash scp.sh"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-katex-external": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.3",
+    "vue-canvas-effect": "^0.0.12",
+    "vuepress-theme-reco": "^1.6.6"
+  }
+}
