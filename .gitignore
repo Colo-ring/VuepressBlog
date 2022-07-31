@@ -1,9 +1,9 @@
 node_modules
 docs/views/Algorithm
 docs/views/DeepLearning
-docs/views/DeepLearning
 docs/views/Java
 docs/views/otherNotes
 scp.sh
 deploy.sh
 .vuepress/dist
+package-lock.json
